@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="W37zxzwoPkmzxSHiYYBoNw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://www.easy.cl/escritorio?_q=escritorio&amp;map=ft&amp;page=2" DesignTimeRectangle="1451, 613, 1404, 6531" DesignTimeScaleFactor="1.5" FriendlyName="'heart-glyph FV-'" FullSelectorArgument="&lt;webctrl id='gallery-layout-container' tag='DIV' /&gt;" Guid="fda9ecce-e8b0-4d33-8886-8c130d1b1f00" ScopeSelectorArgument="&lt;html app='chrome.exe' title='escritorio' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="a5761d5dee634899c1c2ee47bd298642.png" xmlns="">0-KYi97iCqUmXPD2BDsGnxQ</imageRef>
+    </TargetAnchorable>
+    <p:InArgument x:TypeArguments="x:String" x:Key="ExtractDataSettings" xml:space="preserve">&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Structured'&gt;
+	&lt;Column xsi:type='DataColumn' Name='Nombre' ReferenceName='Column0'&gt;
+		&lt;IsValidName&gt;true&lt;/IsValidName&gt;
+		&lt;ValidationErrorMessage /&gt;
+		&lt;IsExtra&gt;false&lt;/IsExtra&gt;
+		&lt;CanExtractSimilar&gt;true&lt;/CanExtractSimilar&gt;
+		&lt;Format xsi:type='TextColumnFormat' /&gt;
+	&lt;/Column&gt;
+	&lt;Column xsi:type='DataColumn' Name='Url' ReferenceName='Column2'&gt;
+		&lt;IsValidName&gt;true&lt;/IsValidName&gt;
+		&lt;ValidationErrorMessage /&gt;
+		&lt;IsExtra&gt;true&lt;/IsExtra&gt;
+		&lt;CanExtractSimilar&gt;true&lt;/CanExtractSimilar&gt;
+		&lt;Format xsi:type='TextColumnFormat' /&gt;
+	&lt;/Column&gt;
+	&lt;Column xsi:type='DataColumn' Name='Descripcion' ReferenceName='Column1'&gt;
+		&lt;IsValidName&gt;true&lt;/IsValidName&gt;
+		&lt;ValidationErrorMessage /&gt;
+		&lt;IsExtra&gt;false&lt;/IsExtra&gt;
+		&lt;CanExtractSimilar&gt;true&lt;/CanExtractSimilar&gt;
+		&lt;Format xsi:type='TextColumnFormat' /&gt;
+	&lt;/Column&gt;
+	&lt;Column xsi:type='DataColumn' Name='Precio' ReferenceName='Column3'&gt;
+		&lt;IsValidName&gt;true&lt;/IsValidName&gt;
+		&lt;ValidationErrorMessage /&gt;
+		&lt;IsExtra&gt;false&lt;/IsExtra&gt;
+		&lt;CanExtractSimilar&gt;true&lt;/CanExtractSimilar&gt;
+		&lt;Format xsi:type='TextColumnFormat' /&gt;
+	&lt;/Column&gt;
+	&lt;Column xsi:type='DataNextLink' /&gt;
+&lt;/Table&gt;</p:InArgument>
+    <TargetAnchorable x:Key="NextLinkTarget" BrowserURL="https://www.easy.cl/escritorio?_q=escritorio&amp;map=ft&amp;page=2" CvElementArea="2301, 1724, 37, 45" CvType="ArrowButton" DesignTimeRectangle="2303, 1729, 36, 36" DesignTimeScaleFactor="1.5" ElementType="Icon" FriendlyName="'IMG'" FullSelectorArgument="&lt;webctrl idx='2' src='https://www.easy.cl/_v/public/assets/v1/published/easycl.custom-*' tag='IMG' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' src='https://www.easy.cl/_v/public/assets/v1/published/easycl.custom-*' tag='IMG' class='' aaname='' /&gt;" Guid="36075129-2302-48c4-9185-58481b1e81ef" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAHiSURBVFhH7Zi/q4FRGMfv34FIBhnEYLApi7IoVmYpm5X8Axab0WC0mAxWi4RVGZSSkiQh7/TVc8pNeu51z3vOq9PN8Jne7/Cp8z4/zvmyLAsm8xFU5SOoyv8S7HQ6KJVKWC6X7HcnkBLM5XJwuVwIh8MYj8dsRjdSguv1GslkUkj6/X70+302pxPpf/BwOCCbzQpJj8eDVqvF5nRhq0gulwvK5bKQJCqVCq7XK5tVxZbgnWazCbfbLSTz+TyOxyObU0FJkOj1evD5fEIylUphs9mwObsoCxKj0QihUEhIxmIxzOdzNmcHLYLEYrFAPB4XksFgEMPhkM3Jok2Q2G634phJ0uv1otvtsjkZtAoSVChUMCRJNBoNNvdXtAsS1HJqtdq3ZLFYxPl8ZrOvcETwTrvdFs2cJDOZDPb7PZv7DUcFicFggEAgICQTiQRWqxWb+wnHBYnJZCIWDJKMRqPY7XZsjuMtgrPZDJFIxExBo4/4sUhoAzKmSKjN1Ot1IUZQm6ENiMu+Qrvg6XQyt1HTqEun00LMuFFn9LJg9Lpl9MJq7Mr/fGmqVqvmXJqer53UjLmcLqQEHy/uNL5ojHE5nUgJPj59TKdTNqMbKUF6RSgUCtIDXwVbRfJOPoKqGC5o4QaVlopcoe7UiQAAAABJRU5ErkJggg==" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' url='*easy.cl*' /&gt;" SearchSteps="FuzzySelector, Image, CV" Version="V2" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CvTextArea="2265, 2022, 199, 22" CvTextArgument="Venta telefonica" CvType="Text" DesignTimeRectangle="2269, 2017, 197, 33" ElementType="Text" FriendlyName="'Venta telefónica'" FullSelectorArgument="&lt;webctrl aaname='Venta telefónica' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Venta telefónica' tag='SPAN' check:innerText='Venta telefónica' /&gt;" ImageBase64="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" SearchSteps="FuzzySelector, Image, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">ExtractData</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

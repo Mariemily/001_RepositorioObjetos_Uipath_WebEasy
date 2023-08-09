@@ -1,0 +1,14 @@
+﻿{
+  "Id": "FH8xB80qVEuS-lysbRXHJw",
+  "Reference": "bJ-0U_ZsJkSGmrIx40jo2Q/FH8xB80qVEuS-lysbRXHJw",
+  "Name": "Chrome: Easy.cl",
+  "Type": "App",
+  "Created": "2023-08-09T01:57:37.736852Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-08-09T01:58:21.3930708Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
